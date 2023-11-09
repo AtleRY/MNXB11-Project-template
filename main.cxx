@@ -1,15 +1,23 @@
 
 #include <iostream>
-int main(int argc, char *argv[]) {
-  std::cout << "I am just a code template, you need to implement the "
-               "functionality you want to use yourself!"
-            << std::endl;
+#include "csv.hpp"
 
-  std::cout << "We were passed " << argc
-            << " command line arguments, the first of which was " << argv[0]
-            << std::endl;
-  std::cout << "With a good CLI library, we could use the command line "
-               "arguments to make a useful program."
-            << std::endl;
+using namespace csv;
+
+
+
+int main() {
+  CSVReader reader("Cleaned-Lund-data.csv");
+
+double sum = 0;
+
+CSVRow row;
+ 
+for (auto& row: reader) {
+    // Note: Can also use index of column with [] operator
+    sum += row["1"].get<double>();
+    std::cout << sum << std::endl;
+}
+  
   return 0;
 }
