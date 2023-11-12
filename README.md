@@ -72,3 +72,6 @@ make -j8 install # If you are on an 8-core machine
 Make sure to document how to do this for any library you choose to use!
 
 Have fun!
+
+https://github.com/vincentlaucsb/csv-parser#numeric-conversions länk till library.
+Kör git clone utanför denna repon sen "cp csv.hpp" i single-include directoryn till include i denna repon.
