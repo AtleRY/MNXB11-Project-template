@@ -4,18 +4,19 @@
 
 using namespace csv;
 
-
-
+const std::string csvFilePath = "./datasets/Cleaned-Lund-data.csv";
 int main() {
-  CSVReader reader("Cleaned-Lund-data.csv");
+  std::ifstream inputFile(csvFilePath);
+  
+  CSVReader reader(inputFile);
 
 double sum = 0;
-
+ 
 CSVRow row;
  
 for (auto& row: reader) {
     // Note: Can also use index of column with [] operator
-    sum += row["1"].get<double>();
+    sum += row[0].get<double>();
     std::cout << sum << std::endl;
 }
   
