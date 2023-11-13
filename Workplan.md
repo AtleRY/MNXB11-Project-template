@@ -1,4 +1,4 @@
-MNXB11 Project Workplan
+MNXB11 Project Workplan - Team G
 
 1. Data Preparation:
 Task 1: Find and Download CSV Parsing Library
