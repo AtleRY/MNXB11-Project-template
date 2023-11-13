@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "csv.hpp"
+#include "include/csv.hpp"
 
 using namespace csv;
 int year;
@@ -29,13 +29,14 @@ for (auto& row: reader) {
   
     if (row[0].is_int()){
       year = row[0].get<int>();
-      //std::cout << "date" << std::endl;
+       // std::cout << "date" << std::endl;
     }
     //kan markera detta som komentar month funkar inte, year gör dock
-    //if ( row[1].is_int()){
-      //month = row[1].get<int>();
-    //}
-    std::cout << year << month << std::endl;
+    if ( row[1].is_int()){
+      month = row[1].get<int>();
+    }
+   
+    std::cout << year << ", " << month << std::endl;
     
 }
   
