@@ -1,7 +1,38 @@
 MNXB11 Project Workplan
-1. Find and download a csv parsing library, Atle
-2. Extract and clean the raw data file, Albin
-3. (A)Make a code that can extract the targeted data from the cleaned and put the output in an TTree, Atle and Albin
-   (B)Try to sort out bad data and put the rest in ROOT. Albin, Atle and Ebbe
-4. Create three analysises of our data, decide together what three, Albin, Atle, Ebbe
-5. Create the different histograms  
+
+1. Data Preparation:
+  Task 1: Find and Download CSV Parsing Library
+- Responsible: Atle
+- Atle will research and identify a suitable CSV parsing library for C++. Once chosen, he will download and set up the library.
+  Task 2: Extract and clean raw data
+- Responsible: Albin
+- Albin will handle the extraction and cleaning of the raw data obtained from the SMHI datasets. This includes converting the data to CSV format and adressing any formatting issues.
+
+2. Data extraction and cleaning:
+  Task 3: A code for data extraction
+- Respnsible: Atle and Albin
+- Together we will develop a C++ code to extract the targeted data from the cleaned datasets and store the output in a ROOT 
+  TTree.
+  Task 4: Handle bad data
+- Responsible Albin, Atle and Ebbe
+- We will collaboratively work on identifying and handling bad data. The goal is to filter out undesirable records and store 
+  the cleaned data in ROOT format.
+3. Data analysis:
+  Task 4: Decide on the three analyses
+- Responsible: Albin, Atle and Ebbe
+- We will collectively decide on three analyses to perform on the datasets. These analyses will contribute to the 
+  understanding of the Swedish climate.
+4. Histogram creation
+  Task 5: Create Different Histograms
+- Responsible: Albin, Atle and Ebbe
+- Based on the chosen analyses, we will create different historgrams using ROOT. The histograms will visualize the results 
+  obtained from the analyses.
+5. Documentation
+   Task 6: Documentation
+- Responsible: Albin, Atle and Ebbe
+- Regularly update the Workplan.md document in the repository to track progress. Use a ChangeLog file to document major code 
+  changes. README.md should provide instructions on how to compile, run, and reproduce the results.
+  Task 7: Project Report
+- Responsible: Albin, Atle and Ebbe (Ebbe will do the writing).
+- Document the entire project in LaTeX, including goals, results, code descriptions, and plots. Each team member will 
+  contribute to specific sections related to their tasks.
