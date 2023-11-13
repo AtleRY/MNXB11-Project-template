@@ -11,22 +11,18 @@ Task 2: Extract and clean raw data
 2. Data extraction and cleaning:
 Task 3: A code for data extraction
 - Respnsible: Atle and Albin
-- Together we will develop a C++ code to extract the targeted data from the cleaned datasets and store the output in a ROOT 
-  TTree.
-Task 4: Handle bad data
-- Responsible Albin, Atle and Ebbe
-- We will collaboratively work on identifying and handling bad data. The goal is to filter out undesirable records and store 
-  the cleaned data in ROOT format.
+- Together we will develop a C++ code to extract the targeted data from the cleaned datasets and store the output in different vectors.
+
 3. Data analysis:
 Task 5: Decide on the three analyses
 - Responsible: Albin, Atle and Ebbe
-- We will collectively decide on three analyses to perform on the datasets. These analyses will contribute to the 
+- We will collectively decide on an analyse to get from the datasets. This analyse will contribute to the 
   understanding of the Swedish climate.
 4. Histogram creation
 Task 6: Create Different Histograms
 - Responsible: Albin, Atle and Ebbe
-- Based on the chosen analyses, we will create different historgrams using ROOT. The histograms will visualize the results 
-  obtained from the analyses.
+- Based on the chosen analyses, we will create a historgram using ROOT. The histogram will visualize the results 
+  obtained from the analyse.
 5. Documentation
 Task 7: Documentation
 - Responsible: Albin, Atle and Ebbe
